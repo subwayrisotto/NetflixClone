@@ -6,7 +6,7 @@ import Banner from './components/Banner';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Banner />
       <Row title="NETFLIX ORIGINALS" url={requests.netflixOriginal} isLargeRow={true}/>
       <Row title="Trending Now" url={requests.trending} /> 

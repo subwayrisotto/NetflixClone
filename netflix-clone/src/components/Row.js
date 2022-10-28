@@ -16,8 +16,6 @@ const Row = ({title, url, isLargeRow}) => {
         fetchData();
     }, [url])
 
-    console.table(movies)
-
     return (
         <div className="row">
            <h2>{title}</h2> 
@@ -32,7 +30,7 @@ const Row = ({title, url, isLargeRow}) => {
                             alt={movie.name}
                         />
                     ))
-                };
+                }
             </div>
         </div>
     )
